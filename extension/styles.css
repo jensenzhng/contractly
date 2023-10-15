@@ -1,0 +1,121 @@
+#privacyPolicyPopupHtml {
+    width: 350px;
+    height: 500px;
+}
+
+#privacyPolicyPopup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 9999;
+    font-family: "Inter", sans-serif;
+    color: #333;
+    min-width: 350px;
+    max-width: 350px;
+    text-align: center;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.popup-contentHtml {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #ffffff;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding-right: 20px;
+    max-width: 350px;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    z-index: 9999;
+    font-family: "Inter", sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+#privacy-score {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3498db;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* margin: 0 auto 20px; */
+}
+
+#security-concerns {
+    list-style: circle !important;
+    text-align: left;
+}
+
+#security-concerns li {
+    margin-bottom: 10px;
+}
+
+/* Style for the heading */
+h4 {
+    /* font-size: 20px; */
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+h5 {
+    position: relative;
+}
+
+#privacyScore {
+    font-weight: bold;
+}
+
+
+.progress-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+
+.progress {
+    stroke-dasharray: 282.6; 
+    stroke-dashoffset: 282.6; 
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
+.progress-text {
+    font-size: 22px;  /* Increased size */
+    font-weight: bold;  /* Make the text bold */
+    dominant-baseline: middle;
+}
+
+.score-header {
+    margin: 15px 0px 10px 0px;
+    font-size: 26px;  /* Increased size */
+    font-weight: bold;  /* Make the text bold */
+}
+
+.point-text {
+    font-size: 14px;  /* Increased size */
+    text-align: left;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    padding: 0 15px 0 15px;
+}
+
+.analyzing {
+    margin-bottom: 20px;
+    font-size: 14px;  /* Increased size */
+}

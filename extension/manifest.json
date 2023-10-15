@@ -3,14 +3,18 @@
     "name": "Contractly",
     "version": "1.0",
     "description": "Summarizes privacy policies automatically.",
-    "permissions": ["activeTab", "scripting", "storage"],
+    "permissions": ["activeTab", "scripting", "storage", "nativeMessaging", "tabs"],
     "host_permissions": ["https://*/*"],
     "background": {
       "service_worker": "background.js",
       "type": "module"
     },
+    "action": {
+        "default_popup": "popup.html"
+    },
     "content_scripts": [{
       "matches": ["https://*/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css" : ["styles.css"]
     }]
   }
