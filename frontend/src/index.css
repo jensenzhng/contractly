@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  background-color: #00000e;
+  font-family: inter;
+}
+
+h1 {
+  color: white;
+  font-size: 3.7rem;
+}
+
+
+p {
+  color: #d3d3d3;
+  font-size: 1.1rem;
+}
+
+Link {
+  color: white;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+* {
+  font-family: 'Inter';
+  color: white;
+}
+
+.radial-gradient {
+  background: radial-gradient(circle at bottom, #7f6389, #00000e 80%)
+}
+
+.bottom-radial-gradient {
+  background: radial-gradient(circle at top, #7f6389, #00000e 100%)
+}
+
+.bottom-radial-gradient {
+  background: radial-gradient(circle at top, #7f6389 75%, #322343 100%)
+}
+
+.card-radial-gradient {
+  background: radial-gradient(circle at bottom, #7f6389 , #00000e 100%);
+  border-color: #21222c;
+  border-width: 2px;
+  backdrop-filter: blur(8px);
+  opacity: 0.6;
+}
+
+.bg-image{
+  /* background properties */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display properties */
+  height: 100vh;
+  opacity: 0.4;
+  filter: blur(8px);
+}
